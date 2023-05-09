@@ -1,0 +1,138 @@
+[
+    {
+        "name": "Administrasjonsgebyr",
+        "text": "Gebyrer som påløper i forbindelse med administrasjon av lånet, herunder etableringsgebyr og termingebyr. Administrasjonsgebyrer inngår i effektiv rente."
+    },
+    {
+        "name": "Avdrag",
+        "text": "Den summen du betaler ned på lånet. Betaler du 5000 til banken hver måned og 2000 av disse er renteutgifter, vil avdraget være på 3000 kr. Avdraget er med andre ord summen lånet ditt minker med etter hver betaling."
+    },
+    {
+        "name": "Avdragsfrihet",
+        "text": "Avdragsfrihet betyr at du kun betaler renten og ikke avdrag på lånet. Lånet vil forbli det samme når du kun betaler rentene."
+    },
+    {
+        "name": "Bank",
+        "text": "Foretak som har til hovedoppgave å motta og yte kreditt, gjennom innlån og utlån. Banker har andre rettigheter og plikter enn finansieringsselskap og omfattes av egne reguleringer."
+    },
+    {
+        "name": "Debitor",
+        "text": "En skyldner som er forpliktet av et krav. En låntaker er en debitor."
+    },
+    {
+        "name": "Effektiv rente",
+        "text": "Den renten du faktisk betaler pr. år. Effektiv rente skiller seg fra nominell rente ved at betalingsgebyrer, etableringsgebyr og renters rente er regnet inn."
+    },
+    {
+        "name": "Egenkapital",
+        "text": "Kapitalen som en person eller bedrift selv eier. Ofte vil en prosentandel av et lånefinansiert kjøp med pant i tingen som kjøpes måtte betales med egenkapital. Dermed reduseres risikoen til långiver, siden panteretten har prioritet foran låntakers egenkapital."
+    },
+    {
+        "name": "Etableringsgebyr",
+        "text": "Etableringsgebyret er et engangsgebyr som i de fleste tilfeller legges til lånebeløpet. Dette gebyret varierer fra bank til bank, og kan enten bestå av en bestemt sum uansett hvor mye du låner, eller en prosentandel av lånesummen. Obs! Etableringsgebyret skal være inkludert i den effektive renten som oppgis fra banken."
+    },
+    {
+        "name": "Fakturagebyr",
+        "text": "Gebyr for å motta faktura per post."
+    },
+    {
+        "name": "Fast rente",
+        "text": "Renten er bundet over en avgrenset tidsperiode, som oftest på 3, 5 eller 10 år. Norges banks styringsrente og rentenivået for øvrig vil ikke påvirke den faste renten i den tidsavgrensede perioden."
+    },
+    {
+        "name": "Forbrukslån",
+        "text": "Synonym for Lån uten sikkerhet."
+    },
+    {
+        "name": "Forfall",
+        "text": "Angir når du må betale regninger fra banken (f.eks. kredittkortregninger). Er forfallsdatoen 15. hver måned vil du som regel motta regningen den 1. hver måned, med betalingsfrist senest den 15. samme måned."
+    },
+    {
+        "name": "Forfallsdato",
+        "text": "Synonym for Forfall."
+    },
+    {
+        "name": "Forsinkelsesrente",
+        "text": "Strafferente som en debitor må betale en kreditor på bakgrunn av å ikke ha oppfylt sine forpliktelser i tide."
+    },
+    {
+        "name": "Gjeldsforsikring",
+        "text": "Gjør at lånet vil bli betjent som normalt uten at du må betale noe hvis du blir sykemeldt, arbeidsledig, permittert eller utsatt for en ulykke. Ved dødsfall innfris hele lånet ditt hvis du har tegnet gjeldsforsikring."
+    },
+    {
+        "name": "Inkasso",
+        "text": "Det opprettes inkassosak mot deg hvis du ikke betaler regningen til forfall og heller ikke betaler inkassovarselet som sendes ut 14 dager etter forfallsdato."
+    },
+    {
+        "name": "Inkassokrav",
+        "text": "Synonym for Inkasso."
+    },
+    {
+        "name": "Kreditor",
+        "text": "En som har krav på en ytelse. En långiver er en kreditor."
+    },
+    {
+        "name": "Kreditt",
+        "text": "En gjensidig forpliktende kontrakt der en av partene (debitor) får utsatt plikten til å gi den andre (kreditor) en ytelse, vanligvis penger. Fra latin: Credere = å tro. Baserer seg på kreditors tillit til at debitor gjør god sin forpliktelse i fremtiden."
+    },
+    {
+        "name": "Kredittforening",
+        "text": "Forening av låntakere som har som formål å fremme medlemmenes interesse mot finansinstitusjoner og myndigheter."
+    },
+    {
+        "name": "Kredittforetak",
+        "text": "Selskap som yter mellomlange og langsiktige lån med konsesjon, men ikke er bank eller forsikringsselskap. Henter midler gjennom utstedelse av obligasjoner."
+    },
+    {
+        "name": "Kredittrisiko",
+        "text": "Risikoen for at en låntaker ikke oppfyller sine forpliktelser. Vurderes av finansinstitusjon gjennom en kredittsjekk før utstedelse av lån."
+    },
+    {
+        "name": "Kredittsjekk",
+        "text": "Synonym for Kredittvurdering."
+    },
+    {
+        "name": "Kredittvurdering",
+        "text": "Kredittopplysningsselskaper vil kredittvurdere deg på oppdrag fra banken du søker lån hos. Du vil få en score fra denne kredittvurderingen som indikerer om banken tar høy, middels eller lav risiko ved å låne ut penger til deg. Jo lavere risiko på kredittvurderingen, jo bedre rente kan du oppnå hos en kredittbank. For andre typer lån vil ofte renten være fastsatt på forhånd, og kredittsjekken vil avgjøre om banken ønsker å tilby deg lån eller ikke."
+    },
+    {
+        "name": "Låneforsikring",
+        "text": "Synonym for Gjeldsforsikring."
+    },
+    {
+        "name": "Løpetid",
+        "text": "Synonym for Gjeldsforsikring."
+    },
+    {
+        "name": "Medlåntaker",
+        "text": "Står sammen med hovedlåntaker ansvarlig for å betjene lånet, men er ikke ansvarlig for hele gjelden."
+    },
+    {
+        "name": "Nedbetalingstid",
+        "text": "Samme som løpetid."
+    },
+    {
+        "name": "Nominell rente",
+        "text": "Rente hvor ekstrakostnader som gebyrer og renters rente ikke er regnet med. Denne er lavere enn effektiv rente, og er egentlig kun en teoretisk størrelse siden det er effektiv rente du faktisk betaler."
+    },
+    {
+        "name": "Rente",
+        "text": "Kostnaden ved å leie kapital (ta opp et lån), ev. inntekten ved å leie ut (gjennom bankinnskudd o.l.). Det skilles mellom nominell og effektiv rente."
+    },
+    {
+        "name": "Rentefradrag",
+        "text": "Skattefradrag for betalte gjeldsrenter som føres på selvangivelsen. Du får fradrag tilsvarende kapitalskatten."
+    },
+    {
+        "name": "Sikkerhet",
+        "text": "Panterett og/eller kausjon som sikrer långiver i tilfelle låntaker ikke betaler tilbake lånet i henhold til avtalen."
+    },
+    {
+        "name": "Terminbeløp",
+        "text": "Totalbeløpet som må betales på et lån for en gitt termin. Inkluderer renter, avdrag og gebyrer."
+    },
+    {
+        "name": "Termingebyr",
+        "text": "For hver månedlige betaling må du i de fleste banker betale et termingebyr. Dette gebyret varierer, men ligger som oftest på 30–100 kr. Termingebyret er inkludert i bankens effektiv rente."
+    }
+]

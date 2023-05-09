@@ -1,0 +1,23 @@
+
+
+Calculation for determining monthly amount to pay:
+
+P = premium
+r = interest rate / periods in year
+n = periods in year * years
+
+P(r * ((1+r)^n)) / (((1+r)^n) -1) 
+
+example: 
+
+P = 10000
+r = 0.075 / 12 (0.00625)
+n = 12 * 5 (60)
+
+
+30000(0.00625 * (1.00625^60)) / ((1.00625^60) - 1)
+
+////
+
+This does not include initiation cost or monthly fees.
+
