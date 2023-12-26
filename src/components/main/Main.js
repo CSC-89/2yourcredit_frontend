@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useCookies } from "react-cookie";
 import { Footer } from "../Footer";
 import { Header } from "../Header";
@@ -11,6 +11,7 @@ const Main = (props) => {
     const [cookies, setCookie] = useCookies("cookies");
 
     const [data, setData] = useState(null);
+    const [test, setTest] = useState(null);
 
     // React.useEffect(() => {
     //     fetch(
@@ -37,6 +38,16 @@ const Main = (props) => {
     //         httpOnly: false,
     //     });
     // }, [setCookie]);
+
+    // Function to clear complete cache data
+    const clearCacheData = () => {
+        caches.keys().then((names) => {
+            names.forEach((name) => {
+                caches.delete(name);
+            });
+        });
+        console.log('Complete Cache Cleared')
+    };
 
     return (
         <div class="">

@@ -41,30 +41,22 @@ export function Selection(props) {
     const dbRef = collection(db, `banks_${countryId}`);
     const content = contentData[`${countryId}`];
 
-    const getData = async () => {
-        //Get the data from Firebase database
-        const data = await getDocs(dbRef).catch((e) => console.log(e));
-
-        //Place data into local state
-        await setBanksArray(
-            data.docs.map((elem) => ({
-                ...elem.data(),
-                id: elem.id,
-            }))
-        );
-
-        await setTimeout(() => {
-            //Avoid async load issues by setting a timeout for the load status change.
-            setLoadStatus(true);
-        }, 1000);
-
-        clearTimeout();
-    };
-
     useEffect(() => {
+        const getData = async () => {
+            let data = await fetch(`http://localhost:8500/fetch?id=${countryId}`).then(async (res)=> {
+                    return res.json()
+                }
+            ).catch((e) => console.log(e));
+            
+            await setBanksArray(data.response)
+        }
+
+        // clearCacheData();
         getData();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, []);
+        setLoadStatus(true);
+    }, [])
+
+    console.log(banksArray)
 
     const onPriceChange = (price) => {
         setPriceSliderData(price);
@@ -74,16 +66,17 @@ export function Selection(props) {
         setYearSliderData(year);
     };
 
+        
     const filteredBanks = banksArray
-        .filter((bank) => {
+        .filter((bank, i) => {
             return (
-                priceSliderData >= bank.minLoanAmount &&
-                priceSliderData <= bank.maxLoanAmount
+                priceSliderData >= Number(bank.minLoanAmount) &&
+                priceSliderData <= Number(bank.maxLoanAmount)
             );
         })
         .sort((a, b) => {
-            const aa = parseInt(a.rating)
-            const bb = parseInt(b.rating)
+            const aa = Number(a.rating)
+            const bb = Number(b.rating)
             if (aa < bb) {
                 return 1;
             }
@@ -92,6 +85,8 @@ export function Selection(props) {
             }
             return 0;
         });
+
+    
 
     return (
         <section
