@@ -109,7 +109,7 @@ function App() {
                             />
                         }
                     />
-                    <Route
+                    {/* <Route
                         exact
                         path="/SE"
                         element={
@@ -132,7 +132,7 @@ function App() {
                                 }}
                             />
                         }
-                    />
+                    /> */}
                     <Route exact path="/ordliste" element={<WordList />} />
                     <Route
                         path="*"

@@ -111,7 +111,7 @@ export function Selection(props) {
                 />
                 {!loadStatus && <LoadingPage />}
 
-                <div id="countrySelection" className="mt-16 lg:mt-20 flex items-center gap-x-5 md:gap-x-8">
+                {/* <div id="countrySelection" className="mt-16 lg:mt-20 flex items-center gap-x-5 md:gap-x-8">
                         {options.map((elm, i) => {
                           return (
                             <form method="GET" action={"/" + elm.value + "#selection"}>
@@ -121,7 +121,7 @@ export function Selection(props) {
                             </form>
                           )
                         })}
-                    </div>
+                    </div> */}
 
                 {loadStatus && (
                     <div>

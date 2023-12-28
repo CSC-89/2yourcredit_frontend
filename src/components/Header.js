@@ -59,7 +59,7 @@ export function Header(props) {
                                 </span>
                             )}
                         </div>
-                        <div id="countrySelection" className="flex items-center gap-x-5 md:gap-x-8">
+                        {/* <div id="countrySelection" className="flex items-center gap-x-5 md:gap-x-8">
                         {options.map((elm, i) => {
                           return (
                             <form method="GET" action={"/" + elm.value} className="flex">
@@ -70,7 +70,7 @@ export function Header(props) {
                             </form>
                           )
                         })}
-                    </div>
+                    </div> */}
                     </div>
                     
                 </nav>
