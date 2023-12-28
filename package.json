@@ -1,6 +1,6 @@
 {
   "name": "2-your-credit",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "private": true,
   "proxy": "http://localhost:5000/finance-affiliate-app/europe-west1/",
   "dependencies": {

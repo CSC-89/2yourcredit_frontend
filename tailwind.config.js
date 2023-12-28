@@ -9,9 +9,6 @@ module.exports = {
         customOrange: "#D79720"
         
       },
-      backgroundImage: {
-        'hero-pattern': "url('./assets/imgs/bgs/indy-bruhin-aNHkhX62BQw-unsplash.svg')"
-      }
     },
   },
   plugins: [],
